@@ -130,26 +130,49 @@ header {
     text-align: center;
 }
 
-.BlogPost h3 {
+.NewPosts h3 {
     font-family: 'Baloo 2';
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     color: var(--lightteal);
+    text-transform: uppercase;
 }
 
-.BlogPost h4 {
+.NewPosts h4 {
     font-family: 'Barlow Semi Condensed';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: medium;
     color: var(--offblack);
+    margin-top: -30px;
 }
 
-.BlogPost p {
+.NewPosts p {
     font-family: 'Barlow Semi Condensed';
-    font-size: 18px;
+    font-size: 20px;
     color: #7B7974;
+    width: 500px;
+    margin-top: -20px;
 }
 
-.BlogPost img {
-    
+.Thumbnail {
+    float: right;
+    height: 200px;
+    margin-top: -175px;
+    margin-right: 80px;
+}
+
+.BlogPost {
+    margin-left: 80px;
+}
+
+.NewProject {
+    margin-left: 80px;
+}
+
+.Shoutout {
+    margin-left: 80px;
+}
+
+.Shoutout p {
+    width: 1000px;
 }
